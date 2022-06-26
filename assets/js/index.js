@@ -11,6 +11,7 @@ document.getElementById("form").addEventListener('keyup' , search);
 // Your private key=5a9751b288cb9601e4e9a5db9fd9dc3062fa992a
 // hash=6953055b2103b0d0f0859e3fe4e55010 
 // Here I am create the hash using online md5 hash calculator because when we create the hash using the crypto js it give me error.When I run Javascript in vscode console then hash code generate successfully and when I run whole HTML in browser then it give me error in browser console. And I try very much to rectify but I cannnot do. But this hash value is also same
+// there is one problem that with marvel API is that the images that is present in the API does not work thats why I do not add any Image of the character.It always give me error.
 function getURL(){
     
     var queery = document.getElementById("user-input").value;
