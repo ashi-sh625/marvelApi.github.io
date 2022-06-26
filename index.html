@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/60df0a97e4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Superhero</title>
+</head>
+<body>
+    <h1>Search Your Favourite Character</h1>
+    <button class="btn btn-link" id="fav_button"> My Favourite Character</button>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/1200px-Marvel_Logo.svg.png">
+    <form method="GET" onsubmit= "search()" id="form">
+        <div class="form-group">
+        <input type="text" class="form-control" id="user-input" placeholder="Enter Character Name">
+        <submit class="btn btn-outline-success" type="submit">Search</submit>
+        </div>
+    </form>
+    <div id="superheros-list">
+        <template id="template">
+            <div id="superhero">
+                <div id="info">
+                    <div id="name">
+                        
+                    </div>
+                    <div id="id">
+                        Race
+                    </div>
+                    <div id="comics">
+                        Gender
+                    </div>
+                    <i class="fas fa-heart" id="fav"></i>
+                    <i class="fas fa-info" id="more-info"></i>
+                </div>
+            </div>
+        </template>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

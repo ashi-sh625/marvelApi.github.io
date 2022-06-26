@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite Character</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/60df0a97e4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1>My Favourite Superheros</h1>
+    <a href="./index.html"><button class="link" style="font-size: larger;">Home</button></a>
+
+    <div id="superheros-list">
+        <template id="template">
+            <div id="superhero">
+                <div id="info">
+                    <div id="name">
+                        Name
+                    </div>
+                    <div id="id">
+                        Id
+                    </div>
+                    <div id="comics">
+                        Comics
+                    </div>
+                    <i class="fas fa-heart" id="fav"></i>
+                    <i class="fas fa-info" id="more-info"></i>
+                </div>
+                <br>
+                <br>
+            </div>
+        </template>
+    </div>
+
+
+    <script src="./assets/js/favourites.js"></script>
+</body>
+</html>

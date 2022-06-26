@@ -1,0 +1,104 @@
+body{
+    text-align: center;
+    margin: 26px;
+    padding: 0;
+    background-color: #fcf68e;
+    font-family: system-ui;
+}
+#user-input{
+    width: 50vw;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+submit{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    align-self: center;
+}
+#superheros-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+#superhero{
+    width: 23vw;
+    min-width: 320px;
+    border: 1px solid black;
+    margin : 10px;
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+i{
+    font-size: 3rem;
+    color: black;
+    position: relative;
+    top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#title{
+    margin: auto;
+}
+#pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    border-radius: 50px;
+}
+button{
+    cursor: pointer;
+
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#details
+{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+#power
+{
+    color: black;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    width: 50vw;
+}
+
+#power span
+{
+    font-size: 2rem;
+}
+
+#bio span
+{
+    color: black;
+    font-size: 2rem;
+}
+#bio
+{
+    color: black;
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 100px;
+}
